@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="side-bar">
+      <div id="side-elements">
+        <div id="side-bar-top-list">
+          <h1 id="header">load manager</h1>
+          <ul>
+            <li>
+              <a class="link-item" href="#">
+                <i class="fas fa-columns link-item"
+                  ><span>Dashboard</span></i
+                ></a
+              >
+              <ul id="hovered">
+                <li>go</li>
+                <li>go</li>
+                <li>go</li>
+              </ul>
+            </li>
+            <li>
+              <a class="link-item" href="#"
+                ><i class="fas fa-cube link-item"><span>Loads</span></i>
+              </a>
+            </li>
+            <li>
+              <a class="link-item" href="#"
+                ><i class="far fa-file-alt link-item"><span>Tips</span></i></a
+              >
+            </li>
+            <li>
+              <a class="link-item" href="#">
+                <i class="fas fa-map-marker-alt link-item"
+                  ><span>Locations</span></i
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="side-bar-bottom-list">
+          <h3 style="position: relative; left: 40px">settings</h3>
+          <ul>
+            <li>
+              <a class="link-item" href="#"
+                ><i class="fas fa-cog link-item"
+                  ><span>Main Settings</span>
+                </i></a
+              >
+            </li>
+            <li>
+              <a class="link-item" href="#"
+                ><i class="fas fa-sign-out-alt link-item"
+                  ><span>Log out</span>
+                </i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="main-section">
+      <div id="header">
+        <h2>Add a new load</h2>
+      </div>
+      <div id="container">
+        <div id="post-form">
+          <h3>Pick up details</h3>
+          <form action="#">
+            <div class="input">
+              <input class="form-element" type="text" name="text" />
+            </div>
+            <div class="input">
+              <input
+                class="form-element"
+                type="text"
+                name="text"
+                placeholder="Company"
+              />
+            </div>
+            <div class="input">
+              <input
+                class="form-element"
+                type="text"
+                name="text"
+                placeholder="Phone"
+              />
+            </div>
+            <div class="input">
+              <input
+                class="form-element"
+                type="date"
+                name="date"
+                placeholder="Select date"
+              />
+            </div>
+            <div class="input">
+              <input
+                class="form-element"
+                type="time"
+                name="time"
+                placeholder="time"
+              />
+            </div>
+            <div id="button">
+              <button class="btn-item"><span>X</span> Cancel</button>
+              <button class="btn-item left">
+                next <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div id="w-50">
+          <img src="img.jpg" alt="rasm" width="50px" height="50px" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
